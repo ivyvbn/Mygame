@@ -1,0 +1,44 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+    height: 610px;
+    background-color: black;
+}
+
+.grid div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.playerX {
+    background-image: url('cross.png')
+}
+
+.playerO {
+    background-image: url('circle.png')
+}
+
+.tittle {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+input {
+    border: 0;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+input:hover {
+    color: red;
+    background-color: #fff;
+    border: 2px red solid;
+    border-radius: 10px;
+}
